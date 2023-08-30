@@ -1,0 +1,16 @@
+POST http://localhost:3000/data?id=abc&key=123
+Content-Type: text/plain
+
+abcde
+
+###
+
+GET http://localhost:3000/data?id=abc&key=123
+
+###
+
+GET http://localhost:3000/list?key=123
+
+###
+
+POST http://localhost:3000/clear?key=123
