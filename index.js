@@ -6,6 +6,7 @@ import { clear } from "./clear.js";
 
 const app = express();
 app.use(express.text());
+app.set("json spaces", 2);
 app.set("trust proxy", true);
 
 app.post("/data", write);
